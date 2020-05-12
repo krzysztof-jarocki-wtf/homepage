@@ -6,10 +6,10 @@
     <title>Krzysztof Jarocki - Materiały szkoleniowe</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <header class="page-header-stripe">
-      <nav>
-        <a href="naukaHtml.html">Index</a>
+  <body onload="parent.scrollTo(0,0);">
+    <header class="header__fixed-top">
+      <nav class="page-header-stripe">
+        <a style="color:blue; font-weight: bolder;">devstyle.pl</a>
         <a href="git.html">GIT</a>
         <a href="dna.html">DNA</a>
         <a href="dbma.html">DBMA</a>
@@ -17,7 +17,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="main__fixed-top">
       <header id="top" class="main-tittle">
         <h1>devstyle.pl</h1>
       </header>
@@ -55,15 +55,24 @@
             </p>
           </article>
         </section>
+
+
+        <section class="article-tittle"><h2>-</h2><article><p>...</p></article></section>
+        <section class="article-tittle"><h2>-</h2><article><p>...</p></article></section>
+        <section class="article-tittle"><h2>-</h2><article><p>...</p></article></section>
+        <section class="article-tittle"><h2>-</h2><article><p>...</p></article></section>
+
       </div>
 
-      <div class="odsylacz-na-poczatek-strony">
-        <a href="#top">Przejdź na początek strony</a>
-      </div>
-
-      <footer class="page-footer-stripe">
-        <div>Pierwsza webska stronka Krzysztofa Jarockiego.</div>
+      <footer class="footer__fixed-bootom">
+        <div class="odsylacz-na-poczatek-strony">
+            <a href="#top">Przejdź na początek strony</a>
+        </div>
+        <div class="page-footer-stripe">
+            <div>&nbsp;&nbsp;Pierwsza webska stronka Krzysztofa Jarockiego&nbsp;&nbsp;|&nbsp;&nbsp;&copy;&nbsp;2020</div>
+        </div>
       </footer>
     </main>
+
   </body>
 </html>
