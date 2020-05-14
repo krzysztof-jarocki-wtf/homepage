@@ -3,7 +3,9 @@ body {
   color: darkcyan;
 }
 h1 {
-  /*color: blue;*/
+  color: blue;
+}
+.h1__hidden {
   color: rgb(36, 34, 34);
 }
 h2 {
@@ -27,6 +29,10 @@ a {
   margin-left: 10px;
 }
 
+.a__red-link {
+  color: red;
+}
+
 .main-tittle {
   text-align: center;
 }
@@ -40,8 +46,11 @@ a {
   margin-bottom: 50px;
 }
 
+.resource-color {
+  color: olive;
+}
 .notatka__color {
-  background: black;
+  background: rgba(0,0,0,0.2);
   _background-color: darkolivegreen;
 
   color: silver;
